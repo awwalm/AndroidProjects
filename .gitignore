@@ -38,6 +38,21 @@ misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
 
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
 # Freeline
 freeline.py
 freeline/
@@ -67,7 +82,6 @@ lint/tmp/
 # lint/reports/
 
 # Specific case-by-case folders
-ActionBar/
 AddressBook/
 AlarmManagerProject/
 AlarmTest/
