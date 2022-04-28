@@ -4,6 +4,7 @@ build/
 
 # Local configuration file (sdk path, etc)
 local.properties
+gradle.properties
 
 # Log/OS Files
 *.log
@@ -37,8 +38,6 @@ out/
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
-
-*.iml
 .gradle
 /local.properties
 /.idea/caches
@@ -80,55 +79,3 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
-
-# Specific case-by-case folders
-
-AlarmManagerProject/
-AlarmTest/
-AlertDialog/
-Android.gitignore
-AndroidProjects-GitShadow/
-AndroidSystemSoftware/
-Async/
-DashboardModern/
-DroidCafePart3/
-EventHandling1/
-ExpertHubRoboticsApp/
-FabExample/
-FirebaseCh1/
-FirebaseCh2/
-FirebaseCh3/
-FirebaseCh4/
-FirebaseCh4b/
-FirebaseCh8/
-FirebaseJobDispatcherDemo/
-FirstIntent/
-FlagQuiz/
-FragmentLifeCycles/
-Fragments/
-Fragments2/
-GCF/
-GTFSOffline-master/
-GetResultsSubActivity/
-GhostApp-master/
-ImplicitIntents/
-InternalStorage/
-LooperThreadExample/
-MyApplication/
-MyApplication2/
-MyApplicationDatePicker/
-NavigationTest/
-NumberGuess/
-ParseSiteData-master/
-RealtimeDBList/
-RecyclerViewProject/
-SharedPreferences/
-StylesAndThemes/
-TipCalculator/
-TransportationApp/
-WebScraper/
-Welcome/
-WorkAllocationTimeManagement-FragmentsVersion/
-Original_FirebaseCh2.rar
-_LIBS/
-_VERSION_CONTROL/
