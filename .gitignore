@@ -84,7 +84,6 @@ lint/tmp/
 # Specific case-by-case folders
 
 AlarmManagerProject/
-AlertDialog/
 Android.gitignore
 AndroidProjects-GitShadow/
 AndroidSystemSoftware/
