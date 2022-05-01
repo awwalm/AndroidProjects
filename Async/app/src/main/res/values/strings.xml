@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Async</string>
+    <string name="long_running_task">LONG RUNING TASK</string>
+    <string name="click">CLICK</string>
+</resources>
