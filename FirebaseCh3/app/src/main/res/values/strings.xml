@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FirebaseCh3</string>
+    <string name="button">Button</string>
+    <string name="button_send_info_to_db">Button: Send Info To Firebase</string>
+    <string name="query_the_db">Query</string>
+    <string name="update_the_db">Update</string>
+    <string name="delete">Delete</string>
+    <string name="send_button">Send Data Button</string>
+</resources>

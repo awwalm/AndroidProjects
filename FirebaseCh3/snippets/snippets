@@ -1,0 +1,36 @@
+
+
+                /*//-------------------------------------------------------------------
+                // auto indexed insertion with ArrayList
+                ArrayList<StockPortfolio> myFolios = new ArrayList<StockPortfolio>();
+
+                StockPortfolio myFolio = new StockPortfolio
+                        ("demoFolio", "lmoroney", "lm@hotmail.com");
+                StockPortfolio myOtherFolio = new StockPortfolio
+                        ("realFolio", "lmoroney", "lmwork@hotmail.com");
+
+                myFolios.add(myFolio);
+                myFolios.add(myOtherFolio);
+
+                // once ArrayList is detected, Firebase auto indexes and auto nests our data
+                myRef.setValue(myFolios);
+                */
+
+                /*//-------------------------------------------------------------------
+                // manual nested child insertion
+                StockPortfolio myFolio = new StockPortfolio
+                       ("demoFolio", "lmoroney", "lm@hotmail.com");
+                myRef.child("folio1").setValue(myFolio);
+
+                StockPortfolio myOtherFolio = new StockPortfolio
+                        ("realFolio", "lmoroney", "lmwork@hotmail.com");
+                myRef.child("folio2").setValue(myOtherFolio);
+                */
+
+                /*//-------------------------------------------------------------------
+                 // single entry
+                StockPortfolio myFolio = new StockPortfolio
+                        ("demoFolio", "lmoroney", "lm@hotmail.com");
+                myRef.setValue(myFolio);
+                // myRef.setValue("Hello World");
+                */
