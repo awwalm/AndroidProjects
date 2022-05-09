@@ -89,7 +89,7 @@ AndroidSystemSoftware/
 DroidCafePart3/
 ExpertHubRoboticsApp/
 # -------------
-FirebaseJobDispatcherDemo/
+
 FirstIntent/
 FlagQuiz/
 FragmentLifeCycles/
@@ -120,3 +120,6 @@ WorkAllocationTimeManagement-FragmentsVersion/
 Original_FirebaseCh2.rar
 _LIBS/
 _VERSION_CONTROL/
+
+# sorry, little one... for now at least
+.gitignore
