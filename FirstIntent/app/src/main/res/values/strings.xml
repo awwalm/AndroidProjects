@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirstIntent</string>
+    <string name="subactivity_button">LAUNCH SUBACTIVITY</string>
+    <string name="subactivity_close">CLOSE</string>
+</resources>
