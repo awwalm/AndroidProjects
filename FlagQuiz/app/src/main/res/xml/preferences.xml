@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:entries="@array/guesses_list"
+        android:entryValues="@array/guesses_list"
+        android:key="pref_numberOfChoices"
+        android:title="@string/number_of_choices"
+        android:summary="@string/number_of_choices_description"
+        android:persistent="true"
+        android:defaultValue="4"    />
+
+    <MultiSelectListPreference
+        android:entries="@array/regions_list_for_settings"
+        android:entryValues="@array/regions_list"
+        android:key="pref_regionsToInclude"
+        android:title="@string/world_regions"
+        android:summary="@string/world_regions_descriptions"
+        android:persistent="true"
+        android:defaultValue="@array/regions_list"/>
+
+</PreferenceScreen>
+
+
+<!--
+
+entries      @array/guesses_list     An array of Strings that will be displayed in the list of options.
+
+entryValues  @array/guesses_list     An array of values associated with the options in the Entries property.
+                                     Selected entry to be stored in the app's SharedPreferences.
+
+key          pref_numberOfChoices    The name of the preferences stored in the app's SharedPreferences.
+
+title        @string/number_of_choices               The title of the preference displayed in the GUI.
+
+summary      @string/number_of_choices_description   A summary description of the preferences that's displayed
+                                                     below its title.
+
+persistent   true                    Whether the preference should persist after the app terminates - if true,
+                                     class PreferenceFragment immediately persists the preference value each time it changes.
+
+defaultValue 4                      The item in the Entries property that's selected by default.
+
+-->
