@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GetResultsSubActivity</string>
+    <string name="launch_second_activity">LAUNCH SECOND ACTIVITY</string>
+    <string name="type_something">Type Something</string>
+    <string name="results">Results</string>
+    <string name="close">CLOSE</string>
+</resources>
