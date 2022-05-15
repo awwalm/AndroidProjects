@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ImplicitIntents</string>
+    <string name="map">Map</string>
+    <string name="webaddress">Web Address</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="newmap">Map</string>
+    <string name="newphone">Phone Number</string>
+
+
+</resources>
