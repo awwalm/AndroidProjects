@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="false"
+    android:layout_centerHorizontal="false"
+    android:layout_centerVertical="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/spacing"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:height="50dp"
+            android:ems="10"
+            android:gravity="center_vertical|center_horizontal"
+            android:hint="@string/internal_storage_app"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine"
+            android:lines="2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_margin="@dimen/spacing"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnsave"
+            style="@android:style/ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/spacing"
+            android:layout_marginEnd="@dimen/spacing"
+            android:layout_weight="1"
+            android:lines="2"
+            android:onClick="saveData"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/btnload"
+            style="@android:style/ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/spacing"
+            android:layout_marginEnd="@dimen/spacing"
+            android:layout_weight="1"
+            android:lines="2"
+            android:onClick="loadData"
+            android:text="@string/load" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_margin="@dimen/spacing"
+        android:layout_marginBottom="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:lines="2" />
+
+    </LinearLayout>
+
+</LinearLayout>
