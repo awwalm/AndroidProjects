@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <!-- warna header kalender -->
+    <style name="DatePicker1" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@android:color/holo_red_dark</item>
+    </style>
+
+    <style name="DatePicker2" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@android:color/black</item>
+    </style>
+
+</resources>
