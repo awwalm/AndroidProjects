@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WebScraper</string>
+    <string name="todo">TODO</string>
+    <string name="hint">Enter a URL to scrape Logo and Title</string>
+    <string name="button_text">Get URL Image and Title</string>
+    <string name="urlTitle">Website Name</string>
+    <string name="paragraph_hint">First paragraph from given website</string>
+</resources>
