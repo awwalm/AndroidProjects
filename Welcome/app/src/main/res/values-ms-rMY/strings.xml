@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Selamat Datang</string>
+    <string name="deitel_logo">Deitel logo ibu jari dua kali ganda</string>
+    <string name="welcome">" Selamat datang ke Android  Pembangunan!"</string>
+    <string name="hello_world">Hai Dunia!</string>
+</resources>
